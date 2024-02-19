@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+header{
+    height: 80%;
+    width: 100%;
+    background-image: url(https://executiveeducation.wharton.upenn.edu/wp-content/uploads/2022/12/execed-participants-esg-strategist-1.jpg);
+    background-size: cover;
+    background-position: 0 30%;
+    /* filter: blur(3px);
+    -webkit-filter: blur(3px); */
+
+}
+#nav{
+    height: 40px;
+    width: 100%;
+    padding-left: 100px;
+    padding-right: 50px;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+}
+#nav1{
+    padding-top: 10px;
+    padding-right: 20px;
+}
+#nav1 a{
+    text-decoration: none;
+    color: black;
+    padding-right: 30px;
+}
+#nav1 button{
+    height: 25px;
+    width: 60px;
+    background-color: rgb(27, 58, 200);
+    color: #ffff;
+}
+#body{
+    margin-top: 250px;
+    color: #141313;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+#p{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    color: #0d0000;
+}
+#search-bar{
+    margin-top: 10px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+}
+#search-bar input{
+    width: 50%;
+}
+#search-bar button{
+    width: 90px;
+    background-color: rgb(27, 58, 202);
+    color: #ffff;
+}
+#last-div{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    color: #171717;
+}
+footer{
+    margin-top: 50px;
+}
+#foot{
+
+    display: flex;
+    justify-content: center;
+
+}
+#first-line p{
+
+}
+#second-line{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+#second-line p{
+    font-weight: 300;
+}
