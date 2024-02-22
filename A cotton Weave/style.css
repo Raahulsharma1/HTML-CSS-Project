@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    padding: 0px 90px;
+    padding-top: 150px;
+    gap: 70px;
+
+}
+#left{
+    height: 100%;
+    width: 45%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+#left h1{
+    font-size: 90px;
+    font-weight: 500;
+    line-height: 100px;
+}
+#bottom-left{
+    height: 40%;
+    width: 100%;
+    /* background-color: yellow; */
+
+}
+#color{
+    /* background-color: rgb(20, 212, 237); */
+    width: fit-content;
+    padding: 7px 10px;
+    display: flex;
+    border: 1px solid black;
+    border-radius:50px;
+}
+#color h5{
+    padding-right: 10px;
+}
+#color1{
+    height: 15px;
+    width: 15px;
+    background-color: burlywood;
+    border-radius: 50%;
+    margin-right: 3px;
+}
+#color2{
+    height: 15px;
+    width: 15px;
+    background-color: rgb(215, 126, 232);
+    border-radius: 50%;
+}
+#left h2{
+    margin-top: 50px;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+#left p{
+    font-size: 20px;
+    width: 70%;
+    /* font-weight: 600; */
+    color: #444;
+    line-height: 25px;
+
+}
+#right{
+    height: 90%;
+    width: 33%;
+    /* background-color: rgb(21, 0, 255); */
+    position: relative;
+}
+#rating{
+    height: 50px;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 20px;
+
+}
+#rating h4{
+    font-size: 20px;
+    font-weight: 600;
+}
+#rating h5{
+    font-size: 15px;
+}
+#rating h5 i{
+    color: gold;
+}
+#right img{
+    width: 100%;
+    height: 89%;
+    object-fit: cover;
+}
+#cart{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(7, 5, 24);
+    color: #ffff;
+    border-radius: 50%;
+    right: -12%;
+    top: 24%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#cart h5{
+    font-size: 18px;
+    font-weight: 500;
+    padding-left: 1px;
+
+}
+#rotated{
+    position: absolute;
+    left: -10%;
+    /* bottom: 0; */
+    /* top: 93%; */
+    /* background-color: aqua; */
+    bottom: 3%;
+    rotate: -90deg;
+    transform-origin: 0 0;
+    font-size: 25px;
+    font-weight: 500;
+}
